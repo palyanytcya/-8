@@ -1,0 +1,124 @@
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+body {
+    background-image: url(../images/78b4bfe54f757518b2e8ab07c1c58c68.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.space_for_btns {
+    width: 144px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 124px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #18A0FB;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-download {
+
+        &--big {
+            width: 144px;
+            height: 46px;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18px;
+        }
+        &--small {
+            width: 111px;
+            height: 36px;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 16px;
+        }  
+        &--small:last-child {
+            background-color: #FF3E1D;
+        }
+        &--primary {
+            background-color: #18A0FB;
+            color: white;
+        }
+        
+        &--gray {
+            background-color: #E0E0E0;
+            color: #878787;
+        }
+        &--white {
+            background-color: #fff;
+            color: #2C2C2C;
+            border: 1px solid #E0E0E0;
+        }
+    }
+}
+
+
+.icon {
+    display: block;
+}
+
+.ml-1 {
+    margin-left: 18px;
+}
+
+.mr-1 {
+    margin-right: 18px;
+}
+
+.ml-2 {
+    margin-left: 9px;
+}
+
+.mr-2 {
+    margin-right: 9px;
+}
+
+svg.white path {
+    stroke: #fff;
+}
+
+svg.gray path {
+    stroke: #878787;
+}
+
+svg.black path {
+    stroke: #2C2C2C;
+}
+
+
+
+
+
+
+
